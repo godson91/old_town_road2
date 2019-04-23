@@ -1,0 +1,14 @@
+body {
+	background-color: blue;
+}
+
+.h1text {
+	text-align: center;
+	border-style: dashed;
+	background-color: grey;
+}
+
+.d-inline-block {
+	border-style: solid; 
+	border-color: green;
+}
