@@ -52,7 +52,7 @@
 	
 // console.log(add(1,2,3,4,5,6,7,8));
 function daddy(heybaby){
-	alert("Stop eating Fat ass!! " + heybaby);
+	alert("Stop eating!! Your Ova Weight!! " + heybaby);
 }
 
 
@@ -111,8 +111,25 @@ function daddy(heybaby){
 // console.log(arrayOfMystery[2]()); // anonymous function!
 
 
+function ani(){
+		document.getElementById('theimage').style.display = 'block'
+		$('#theimage').addClass("imageRot")
+	};
+function ani2() {
+		document.getElementById('theimage').style.display = 'none'
+	
 
 			//rock,		//paper		//scissors
+};
+
+// $("#theimage").on("click", function(){       
+//     $(this).addClass("imageRot").one('webkitAnimationEnd mozAnimationEnd oAnimationEnd msAnimationEnd animationend', function () {
+//         $(this).removeClass("imageRot"); //remove anim class
+//         var url = $(this).data('linkurl'); //get url from data-attribute
+//         $( ":mobile-pagecontainer" ).pagecontainer( "change", url); //navigate to page      
+//     });
+// })
+
 var hands = ['chicken', 'burgers', 'pasta'];
 var user_answer;
 document.getElementById("chicken").addEventListener("click",function(){
@@ -168,12 +185,12 @@ function playRound(r1, r2){
 }
 
 function playGame(){
-	for(var i=0; i < 5; i++){
+	// for(var i=0; i < 5; i++){
 		playRound(player1,player2);
 	}
 	console.log(user_answer + " answer belongs to the user");
-	console.log(player2.name + " computer chose this answer");
-}
+	// console.log(player2.name + " computer chose this answer");
+
 
 //playGame();
 

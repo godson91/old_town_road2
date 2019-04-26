@@ -14,10 +14,10 @@
 </head>
 <body>
 
-	<div class="btn" onClick="ani()"> Start Food Game!</div>
-	<div class="btn" onClick="ani2()"> End Food Game!</div>
+	<div class="btn" onclick="ani()"> Start Food Game!</div>
+	<div class="btn" onclick="ani2()"> End Food Game!</div>
 
-	<div id="anonymous">Time to go on Diet!</div>
+	<div id="theimage" class="anonymous">Time to go on Diet!</div>
 
 
 
@@ -26,14 +26,13 @@
 		<button type="button" id="chicken" class="btn btn-primary">chicken</button>
         <button type="button" id="burgers" class="btn btn-primary">burgers</button>
         <button type="button" id="pasta" class="btn btn-primary">pasta</button>
-        
+
 <script type="text/javascript" src="javafunctions.js">
-	function ani(){
-		document.getElementById('anonymous').style.display = 'block'
-	};
-	function ani2(){
-		document.getElementById('anonymous').style.display = 'none'
-	};
+
 </script>
+<script
+  src="https://code.jquery.com/jquery-3.4.0.min.js"
+  integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+  crossorigin="anonymous"></script>
 </body>
 </html>
